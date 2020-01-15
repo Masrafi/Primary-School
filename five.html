@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>বসন্তের পাড়া সরকারী প্রাথমিক বিদ্যালয়</title>
+	<meta charset="UTF-8"/>
+
+	<link rel="stylesheet" href="myProject.css"/>
+
+
+
+<script type="text/javascript">
+            var picPaths = ['5th1.jpg','5th2.jpg','5th3.jpg','5th4.jpg'];
+            var curPic = 2000;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+</script>
+
+
+
+</head>
+<body style="background-image: url(mas5.jpg);">
+
+
+
+<div class="ma">
+
+<img src="mas.png" align="right" width="200" height="210" style="margin-right:0px;">
+
+
+<img src="mas3.gif" align="left" width="220" height="210" alt="Flying Bat">
+
+
+<h1  class="mas" >বসন্তের পাড়া সরকারী প্রাথমিক বিদ্যালয় </h1>
+
+
+
+		
+<ul id="menu">
+<li><a href="myProject.html">হোম </a>  </li>
+
+
+<li><a href="">আমাদের কথা</a>
+<ul>
+	<li><a href="academichistory.html">প্রতিষ্ঠান ইতিহাসষ</a></li>
+	<li><a href="govnbody.html">গভর্নিং বডি </a></li>
+	<li><a href="brief.html"></a>সংক্ষিপ্ত বিবরণী</li>
+
+
+
+</ul>
+
+</li>
+
+
+<li><a href="">শিক্ষকদের তথ্য</a>
+<ul>
+<li><a href="headmaster.html">প্রধান শিক্ষক</a></li>
+
+<li><a href="#">সহকারী শিক্ষক </a>
+<ul>
+<li><a href="noor.html"> সহকারী শিক্ষক </br> আঃ নূর </a></li>
+<li><a href="mannan.html">সহকারী শিক্ষক</br> আঃ মান্নান </a></li>
+<li><a href="abdullah.html">সহকারী শিক্ষক </br> আব্দুল্লাহ </a></li>
+<li><a href="#">সহকারী শিক্ষক </a></li>
+</ul>					
+</li>
+
+
+</li>
+<li><a href="#">Dropdown Item </a></li>
+</ul>			
+</li>
+<li><a href="#">স্টাফদের তথ্য </a>
+<ul>
+<li><a href="stuff.html">অফিস স্টাফ  </a></li>
+</ul>
+</li>
+<li><a href="#">শিক্ষার্থীদের তথ্য</a>
+<ul>
+<li><a href="one.html">প্রথম </a></li>
+<li><a href="two.html">দ্বিতীয় </a></li>
+<li><a  href="three.html">তৃতীয় </a></li>
+<li><a href="four.html">চতুর্থ </a></li>
+<li><a href="five.html">পঞ্চম </a></li>
+</ul>
+			
+</li>
+
+<li><a href="">একাডেমিক তথ্য </a>
+<ul>
+<li><a href="#"> </a></li>
+<li><a href="#"></a></li>
+<li><a href="#"> </a></li>
+</ul>
+</li>
+
+<li><a href="image.html">ফটো গ্যালারি </a>
+</li>
+
+<li><a href="">যোগাযোগ </a>
+<ul>
+<li><a href="thikana.html">ঠিকানা </a></li>
+</ul>
+</li>
+
+
+</ul>
+
+</div>
+
+<marquee scrollamount="10">বসন্তের পাড়া সরকারী প্রাথমিক বিদ্যালয় Project Created by <b style="color:#7D6608  "><i><u>Masrafi Anam</u></i></b></marquee>
+
+
+
+
+<ol >
+ 	<li>মোট ছাত্র
+ 		<ul>
+ 			<li></li>
+ 		</ul>
+ 	</li>
+ 	<li>উপস্থিত
+ 		<ul>
+ 			<li></li>
+ 		</ul>
+ 	</li>
+ 	<li>অনুপস্থিত 
+ 		<ul>
+ 			<li></li>
+ 		</ul>
+ 	</li>
+
+
+
+ <span>
+            <img id="imgBanner" src="" alt="" width="600" height="450" Style="  margin-left:3.2cm;display:inline;position: absolute;  margin-top:5px;  margin-buttom:50px;padding:0;     vertical-align: middle;    border-style: solid; border-width: 10px;border-color: #C71585 blue blue #C71585;"/>
+        </span>
+
+</body>
+</html>
